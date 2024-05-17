@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "rnrepo"
+  description: "rnapp"
+  annotations:
+    github.com/project-slug: alok/rntestapp
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "group:default/alok"
